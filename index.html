@@ -63,8 +63,9 @@
             APDEX – метрика, которая сразу говорит: хорошо или плохо. Метрика
             работает очень просто. Мы выбираем временной интервал [0; <var>t</var>], такой, что если
             время показа страницы попало в него, то пользователь счастлив. Берем еще один
-            интервал, (<var>t</var>; 4<var>t</var>] (в четыре раза больше первого), и считаем, что если страница
-            показана за это время, то пользователь в целом удовлетворен скоростью работы,
+            интервал, (<var>t</var>; 4<var>t</var>] (в четыре раза больше первого),
+            и считаем, что если страница показана за это время,
+            то пользователь в целом удовлетворен скоростью работы,
             но уже не настолько счастлив. И применяем формулу:
         </p>
         <p>
@@ -197,9 +198,14 @@
                 <strong>while</strong> ||&nabla;<var>f<sub>k</sub></var>|| > <var>&epsilon;</var><br>
 
                 <span>
-                    найти направление <var>p<sub>k</sub></var> = -<var>C<sub>k</sub></var>&nabla;<var>f<sub>k</sub></var><br>
-                    вычислить <var>x<sub>k+1</sub></var> = <var>x<sub>k</sub></var> + <var>&alpha;<sub>k</sub></var><var>p<sub>k</sub></var>, <var>&alpha;<sub>k</sub></var> удовлетворяет всем условиям Вольфе<br>
-                    обозначить <var>s<sub>k</sub></var> = <var>x<sub>k+1</sub></var> - <var>x<sub>k</sub></var> и <var>y<sub>k</sub></var> = &nabla;<var>f<sub>k+1</sub></var> - &nabla;<var>f<sub>k</sub></var><br>
+                    найти направление <var>p<sub>k</sub></var> = -<var>C<sub>k</sub>
+                    </var>&nabla;<var>f<sub>k</sub></var><br>
+                    вычислить <var>x<sub>k+1</sub></var> = <var>x<sub>k</sub></var>
+                    + <var>&alpha;<sub>k</sub></var><var>p<sub>k</sub></var>,
+                    <var>&alpha;<sub>k</sub></var> удовлетворяет всем условиям Вольфе<br>
+                    обозначить <var>s<sub>k</sub></var> = <var>x<sub>k+1</sub></var>
+                    - <var>x<sub>k</sub></var> и <var>y<sub>k</sub></var> = &nabla;
+                    <var>f<sub>k+1</sub></var> - &nabla;<var>f<sub>k</sub></var><br>
                     вычислить <var>C<sub>k+1</sub></var><br>
                     <var>k</var> = <var>k + 1</var><br>
                 </span>
@@ -262,7 +268,8 @@
             <h4>Комментарии (3):</h4>
 
             <article>
-                - Mogaika (<a href="mailto:mogaika@yandex-team.ru">mogaika@yandex-team.ru</a>) 30 ноября 2014 в
+                - Mogaika (<a href="mailto:mogaika@yandex-team.ru">
+                mogaika@yandex-team.ru</a>) 30 ноября 2014 в
                 17:05<br>
 
                 <span>
@@ -271,7 +278,8 @@
             </article>
             <br>
             <article>
-                - JIguse (<a href="mailto:mrawesome@yandex.ru">mrawesome@yandex.ru</a>) 29 ноября 2014 в 21:30<br>
+                - JIguse (<a href="mailto:mrawesome@yandex.ru">
+                mrawesome@yandex.ru</a>) 29 ноября 2014 в 21:30<br>
 
                 <span>
                     Спасибо за статью, познавательно. Здорово, что Яндекс делится некоторыми
@@ -280,15 +288,18 @@
             </article>
             <br>
             <article>
-                - Brister (<a href="mailto:brist89@yandex-team.ru">brist89@yandex-team.ru</a>) 24 ноября 2014 в
+                - Brister (<a href="mailto:brist89@yandex-team.ru">
+                brist89@yandex-team.ru</a>) 24 ноября 2014 в
                 13:13<br>
 
                 <span>
                      <q>
-                            (<var>кол-во счастливых пользователей</var> + <var>кол-во удовлетворенных</var> / 2) /
-                            (<var>кол-во всех</var>).<br>
-                            Получается значение от нуля до единицы, которое, видимо, лучше всего показывает,
-                            хорошо или плохо работает почта.
+                         (<var>кол-во счастливых пользователей</var>
+                         + <var>кол-во удовлетворенных</var> / 2) /
+                         (<var>кол-во всех</var>).<br>
+                         Получается значение от нуля до единицы, которое,
+                         видимо, лучше всего показывает,
+                         хорошо или плохо работает почта.
                      </q><br>
                     <br>
                     наверное все-таки от 0.5 до 1
@@ -296,11 +307,13 @@
             </article>
             <br>
             <article>
-                - alexeimois (<a href="mailto:test@yandex.ru">test@yandex.ru</a>) 22 ноября 2014 в 17:35<br>
+                - alexeimois (<a href="mailto:test@yandex.ru">test@yandex.ru</a>)
+                22 ноября 2014 в 17:35<br>
 
                 <span>
                    Мы измеряем скорость загрузки с помощью Яндекс.Метрики:<br>
-                   <a href="http://help.yandex.ru/metrika/reports/monitoring_timing.xml">help.yandex.ru/metrika/reports/monitoring_timing.xml</a>
+                   <a href="http://help.yandex.ru/metrika/reports/monitoring_timing.xml">
+                       help.yandex.ru/metrika/reports/monitoring_timing.xml</a>
                </span>
             </article>
         </section>
